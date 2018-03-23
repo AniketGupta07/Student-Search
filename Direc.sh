@@ -30,6 +30,14 @@ do
 	rm -rf Details.txt.bak
 	sed -i.bak -e '6 d' Details.txt
 	rm -rf Details.txt.bak
+	sed -i.old '1s;^;Name : ;' Details.txt
+	sed -i.old '2s;^;Roll no : ;' Details.txt
+	sed -i.old '3s;^;Program : ;' Details.txt
+	sed -i.old '4s;^;Department : ;' Details.txt
+	sed -i.old '5s;^;Hostel : ;' Details.txt
+	sed -i.old '6s;^;Blood Group : ;' Details.txt
+	echo "-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*">>Details.txt
+	rm -rf Details.txt.old
 	rm -rf ani.jsp
 	../
 	((rollno++))
@@ -65,6 +73,15 @@ do
 	rm -rf Details.txt.bak
 	sed -i.bak -e '6 d' Details.txt
 	rm -rf Details.txt.bak
+	sed -i.old '1s;^;Name : ;' Details.txt
+	sed -i.old '2s;^;Roll no : ;' Details.txt
+	sed -i.old '3s;^;Program : ;' Details.txt
+	sed -i.old '4s;^;Department : ;' Details.txt
+	sed -i.old '5s;^;Hostel : ;' Details.txt
+	sed -i.old '6s;^;Blood Group : ;' Details.txt
+	echo "-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*">>Details.txt
+	rm -rf Details.txt.old
+	
 	rm -rf ani.jsp
 	../
 	((rollno++))
@@ -100,6 +117,15 @@ do
 	rm -rf Details.txt.bak
 	sed -i.bak -e '6 d' Details.txt
 	rm -rf Details.txt.bak
+	sed -i.old '1s;^;Name : ;' Details.txt
+	sed -i.old '2s;^;Roll no : ;' Details.txt
+	sed -i.old '3s;^;Program : ;' Details.txt
+	sed -i.old '4s;^;Department : ;' Details.txt
+	sed -i.old '5s;^;Hostel : ;' Details.txt
+	sed -i.old '6s;^;Blood Group : ;' Details.txt
+	echo "-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*">>Details.txt
+	rm -rf Details.txt.old
+	
 	rm -rf ani.jsp
 	../
 	((rollno++))
@@ -135,6 +161,15 @@ do
 	rm -rf Details.txt.bak
 	sed -i.bak -e '6 d' Details.txt
 	rm -rf Details.txt.bak
+	sed -i.old '1s;^;Name : ;' Details.txt
+	sed -i.old '2s;^;Roll no : ;' Details.txt
+	sed -i.old '3s;^;Program : ;' Details.txt
+	sed -i.old '4s;^;Department : ;' Details.txt
+	sed -i.old '5s;^;Hostel : ;' Details.txt
+	sed -i.old '6s;^;Blood Group : ;' Details.txt
+	echo "-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*">>Details.txt
+	rm -rf Details.txt.old
+	
 	rm -rf ani.jsp
 	../
 	((rollno++))
