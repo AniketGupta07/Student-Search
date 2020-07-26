@@ -1,2 +1,2 @@
 # Student-Search
-Student search implemented in bash
+IITK based Student Search implemented in bash. contains data of Y-[14..17]
